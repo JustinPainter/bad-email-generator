@@ -1,9 +1,7 @@
 const chance = require('chance').Chance()
-const is = require('../../util/is')
+const is = require('./is')
 const oneLiners = require('1-liners')
 const changeCase = require('change-case')
-const { lowerCase } = require('lower-case')
-const { upperCase } = require('upper-case')
 const { upperCaseFirst } = require('upper-case-first')
 
 function pickOne(collection, separator = ',') {
