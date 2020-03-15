@@ -2,7 +2,6 @@ const chance = require('chance').Chance()
 const is = require('./is')
 const oneLiners = require('1-liners')
 const changeCase = require('change-case')
-const { upperCaseFirst } = require('upper-case-first')
 
 function pickOne(collection, separator = ',') {
   if (is.array(collection)) {
