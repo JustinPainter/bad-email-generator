@@ -1,6 +1,6 @@
+const head = require('1-liners/head')
 const {
   pickOne,
-  head,
   deLocalizeString,
   getInitial,
   upperCaseFirst
